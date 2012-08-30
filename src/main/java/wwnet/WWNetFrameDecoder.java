@@ -75,9 +75,16 @@ public class WWNetFrameDecoder extends FrameDecoder {
             case Constant.CMD_GAME:
                 result = decodeCmdGame(data, head);
                 break;
+            case Constant.CMD_ROLE:
+                result = decodeCmdRole(data, head);
+                break;
             default: result = raiseError(data, head);
         }
         return result;
+    }
+
+    private Object decodeCmdRole(ByteBuffer data, HeadWrapper head) {
+        return null;
     }
 
     protected Object decodeCmdHall(ByteBuffer data, HeadWrapper head) {

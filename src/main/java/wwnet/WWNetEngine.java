@@ -28,5 +28,6 @@ public class WWNetEngine extends GameCanvasEngine{
 
     protected void loop() {
         //TODO
+
     }
 }

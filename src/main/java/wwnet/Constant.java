@@ -15,6 +15,7 @@ public class Constant {
     public static final byte CMD_ROOM = 1;
     public static final byte CMD_TABLE = 2;
     public static final byte CMD_GAME = 3;
+    public static final byte CMD_ROLE = 4;
 
     public static final byte HALL_UD_LOGIN = 0;
     public static final byte HALL_UD_QUIT = 1;
